@@ -1,8 +1,8 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://github.com/easierdata/web3/blob/main/json-schema/schema.json",
-  "title": "Web3 Extension",
-  "description": "STAC Web3 Extension to a STAC Item and STAC Assets.",
+  "$id": "https://github.com/easierdata/IPFS/blob/main/json-schema/schema.json",
+  "title": "IPFS Extension",
+  "description": "STAC IPFS Extension to a STAC Item and STAC Assets.",
   "oneOf": [
     {
       "$comment": "This is the schema for STAC Items.",
@@ -84,7 +84,7 @@
         "stac_extensions": {
           "type": "array",
           "contains": {
-            "const": "https://github.com/easierdata/web3/blob/main/json-schema/schema.json"
+            "const": "https://github.com/easierdata/IPFS/blob/main/json-schema/schema.json"
           }
         }
       }
@@ -92,7 +92,7 @@
     "fields": {
       "type": "object",
       "properties": {
-        "web3:payload-cid": {
+        "ipfs:payload-cid": {
           "title": "Payload CID",
           "type": "string"
         }

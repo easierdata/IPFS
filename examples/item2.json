@@ -1,7 +1,7 @@
 {
   "stac_version": "1.0.0",
   "stac_extensions": [
-    "https://github.com/easierdata/web3/blob/main/json-schema/schema.json"
+    "https://github.com/easierdata/IPFS/blob/main/json-schema/schema.json"
   ],
   "id": "feature-id",
   "collection": "collection-id",
@@ -41,9 +41,9 @@
   },
   "properties": {
     "datetime": "2020-12-11T22:38:32Z",
-    "web3:platform": "FIL",
-    "web3:payload-cid": "bafybeice2a277fz7mpiaz2unf6se5q6bgyrebi66w7czigjqdmki2vnsw4",
-    "web3:storage-provider-cid": [
+    "ipfs:platform": "FIL",
+    "ipfs:payload-cid": "bafybeice2a277fz7mpiaz2unf6se5q6bgyrebi66w7czigjqdmki2vnsw4",
+    "ipfs:storage-provider-cid": [
       "f0717969",
       "f01392893",
       "f01419959"
@@ -51,11 +51,11 @@
   },
   "assets": {
     "Band_1": {
-      "web3:cid": "bafybeia35dh7rm7n435uu4ejvoea5ouksi63j2gshzjh2xdndaoutz55vq",
+      "ipfs:cid": "bafybeia35dh7rm7n435uu4ejvoea5ouksi63j2gshzjh2xdndaoutz55vq",
       "href": "https://example.com/examples/file.xyz"
     },
     "Band_2": {
-      "web3:cid": "bafybeiad4z4oeusu5p7cupr2j2k3gpqyefrsg6s7w3q3vsgkpvyj2mlp3e",
+      "ipfs:cid": "bafybeiad4z4oeusu5p7cupr2j2k3gpqyefrsg6s7w3q3vsgkpvyj2mlp3e",
       "href": "https://example.com/examples/file.xyz"
     }
   },

@@ -1,14 +1,14 @@
-# Web3 Extension Specification
+# IPFS Extension Specification
 
-- **Title:** Web3
-- **Identifier:** <https://github.com/easierdata/web3/blob/main/json-schema/schema.json>
-- **Field Name Prefix:** Web3 
+- **Title:** IPFS
+- **Identifier:** <https://github.com/easierdata/IPFS/blob/main/json-schema/schema.json>
+- **Field Name Prefix:** IPFS 
 - **Scope:** Item, Asset
 - **Extension [Maturity Classification](https://github.com/radiantearth/stac-spec/tree/master/extensions/README.md#extension-maturity):** Proposal
 - **Owner**: @TaylorOshan @leonardzh @jsolly 
 
-This document explains the Web3 Extension to the [SpatioTemporal Asset Catalog](https://github.com/radiantearth/stac-spec) (STAC) specification.
-This extension adds fields to STAC Item and Asset objects, allowing for details related to web3 storage access associated with a STAC Item.
+This document explains the IPFS Extension to the [SpatioTemporal Asset Catalog](https://github.com/radiantearth/stac-spec) (STAC) specification.
+This extension adds fields to STAC Item and Asset objects, allowing for details related to IPFS storage access associated with a STAC Item.
 
 - Examples:
   - [Item example](examples/item.json): Shows the basic usage of the extension in a STAC Item
@@ -20,12 +20,12 @@ This extension adds fields to STAC Item and Asset objects, allowing for details 
 
 | Field Name           | Type                      | Description |
 | -------------------- | ------------------------- | ----------- |
-| web3:payload-cid         | string | Each item is associated with a single content ID hash |
+| ipfs:payload-cid         | string | Each item is associated with a single content ID hash |
 
 ## Asset Fields
 | Field Name           | Type                      | Description |
 | -------------------- | ------------------------- | ----------- |
-| web3:cid   | string                    | Each asset is associated with a single content ID hash |
+| ipfs:cid   | string                    | Each asset is associated with a single content ID hash |
 
 ## Contributing
 
