@@ -1,7 +1,7 @@
 # Web3 Extension Specification
 
 - **Title:** Web3
-- **Identifier:** <https://stac-extensions.github.io/web3/v1.0.0/schema.json>
+- **Identifier:** <https://github.com/easierdata/web3/blob/main/json-schema/schema.json>
 - **Field Name Prefix:** Web3 
 - **Scope:** Item, Asset
 - **Extension [Maturity Classification](https://github.com/radiantearth/stac-spec/tree/master/extensions/README.md#extension-maturity):** Proposal
