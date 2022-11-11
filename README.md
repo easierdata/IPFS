@@ -1,7 +1,7 @@
-# Template Extension Specification
+# Web3 Extension Specification
 
 - **Title:** Web3
-- **Identifier:** <https://stac-extensions.github.io/template/v1.0.0/schema.json>
+- **Identifier:** <https://stac-extensions.github.io/web3/v1.0.0/schema.json>
 - **Field Name Prefix:** Web3 
 - **Scope:** Item, Asset
 - **Extension [Maturity Classification](https://github.com/radiantearth/stac-spec/tree/master/extensions/README.md#extension-maturity):** Proposal
