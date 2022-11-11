@@ -41,13 +41,7 @@
   },
   "properties": {
     "datetime": "2020-12-11T22:38:32Z",
-    "web3:platform": "FIL",
-    "web3:payload-cid": "bafybeice2a277fz7mpiaz2unf6se5q6bgyrebi66w7czigjqdmki2vnsw4",
-    "web3:storage-provider-cid": [
-      "f0717969",
-      "f01392893",
-      "f01419959"
-    ]
+    "web3:payload-cid": "bafybeice2a277fz7mpiaz2unf6se5q6bgyrebi66w7czigjqdmki2vnsw4"
   },
   "assets": {
     "Band_1": {

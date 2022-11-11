@@ -20,17 +20,12 @@ This extension adds fields to STAC Item and Asset objects, allowing for details 
 
 | Field Name           | Type                      | Description |
 | -------------------- | ------------------------- | ----------- |
-| web3:platform   | string                    | The web3 storage system |
 | web3:payload-cid         | string | Each item is associated with a single content ID hash |
-| web:storage-provider-id | \[string]                 | A list of storage providers who are hosting copies of the item. |
 
 ## Asset Fields
 | Field Name           | Type                      | Description |
 | -------------------- | ------------------------- | ----------- |
 | web3:cid   | string                    | Each asset is associated with a single content ID hash |
-
-### Additional Field Information
-#### TODO
 
 ## Contributing
 

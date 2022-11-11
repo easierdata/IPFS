@@ -92,22 +92,9 @@
     "fields": {
       "type": "object",
       "properties": {
-        "web3:platform": {
-          "title": "Web3 Platform",
-          "type": "string",
-          "enum": [
-            "FIL"
-          ],
-          "default": "FIL"
-        },
         "web3:payload-cid": {
           "title": "Payload CID",
           "type": "string"
-        },
-        "web3:storage-provider-cid": {
-          "type": "array",
-          "title": "Web3 Storage Provider CID",
-          "default": null
         }
       }
     }
